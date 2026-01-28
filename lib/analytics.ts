@@ -33,10 +33,10 @@ export const analytics = {
 };
 
 /**
- * Hook to track scroll depth
+ * Function to track scroll depth
  * Fires events at 25%, 50%, 75%, and 100% scroll
  */
-export function useScrollTracking() {
+export function setupScrollTracking() {
   if (typeof window === "undefined") return;
 
   const milestones = [25, 50, 75, 100];

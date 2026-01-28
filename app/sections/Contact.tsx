@@ -25,7 +25,7 @@ export default function Contact() {
         <div className="max-w-3xl">
           {/* CTA */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight mb-8 text-balance">
-            Let's build something exceptional together
+            Let&apos;s build something exceptional together
           </h2>
 
           {/* Links - large, accessible */}
@@ -85,4 +85,3 @@ export default function Contact() {
     </AnimatedSection>
   );
 }
-

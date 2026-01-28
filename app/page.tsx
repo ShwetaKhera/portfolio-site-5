@@ -7,7 +7,7 @@ import Projects from "./sections/Projects";
 import Capabilities from "./sections/Capabilities";
 import Background from "./sections/Background";
 import Contact from "./sections/Contact";
-import { useScrollTracking } from "@/lib/analytics";
+import { setupScrollTracking } from "@/lib/analytics";
 
 /**
  * Main portfolio page
@@ -19,7 +19,7 @@ import { useScrollTracking } from "@/lib/analytics";
 export default function Home() {
   // Initialize scroll depth tracking
   useEffect(() => {
-    const cleanup = useScrollTracking();
+    const cleanup = setupScrollTracking();
     return cleanup;
   }, []);
 
@@ -34,4 +34,3 @@ export default function Home() {
     </main>
   );
 }
-
