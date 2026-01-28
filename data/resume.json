@@ -1,0 +1,241 @@
+{
+  "basics": {
+    "name": "Shweta Khera",
+    "title": "Software Engineer",
+    "headline": "I build lightning-fast, accessible web applications that delight users and scale to millions",
+    "location": "Brisbane, Australia",
+    "email": "shwetakhera96@gmail.com",
+    "github": "https://github.com/shwetakhera",
+    "linkedin": "https://linkedin.com/in/shweta-k-278126154",
+    "summary": "Software Engineer with 3+ years of experience designing, building, and optimising large-scale web and mobile applications using React, Angular, JavaScript, TypeScript, and modern frontend architecture. Strong track record delivering high-performance, accessible, mobile-responsive interfaces and leading code-quality initiatives."
+  },
+  "skills": [
+    {
+      "category": "Frontend Frameworks & Libraries",
+      "items": ["React.js", "Next.js", "Angular 11+", "React Native", "Vue.js", "GraphQL"]
+    },
+    {
+      "category": "Styling & Design",
+      "items": ["HTML5", "CSS3", "SCSS", "Tailwind CSS", "Responsive Design", "Accessibility (WCAG)", "Design Systems", "Storybook"]
+    },
+    {
+      "category": "Performance & Quality",
+      "items": ["Lazy Loading", "Bundle Optimization", "Code Splitting", "Caching", "Jest", "Jasmine", "Mocha", "Selenium", "TDD"]
+    },
+    {
+      "category": "Tools & Infrastructure",
+      "items": ["TypeScript", "Git", "GitHub", "CI/CD", "Agile", "Kanban", "Renovate", "Node.js", "Express.js"]
+    },
+    {
+      "category": "Databases",
+      "items": ["PostgreSQL", "MongoDB", "MySQL", "SQLite"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Job Search Works",
+      "role": "Senior Software Engineer (Contract)",
+      "location": "Melbourne, Australia",
+      "startDate": "2025-07",
+      "endDate": "2025-09",
+      "featured": true,
+      "problem": "Admin and desktop applications suffered from 60-second load times, inconsistent UI after Tailwind migration, and duplicated component code across platforms",
+      "solution": "Implemented strategic code splitting and lazy loading, established reusable design system patterns, and led architecture improvements across React/TypeScript/Electron stack",
+      "impact": "Reduced load time from 60s to 103ms (98% improvement), cut duplicate code by 32%, and established component patterns that improved team velocity",
+      "highlights": [
+        "Reduced webpage load time from 60 seconds to 103 ms via code splitting and lazy loading (98% improvement)",
+        "Spearheaded reusable design-system initiative, cutting duplicate code by 32%",
+        "Led PR reviews and mentored junior engineers, establishing UI component patterns",
+        "Delivered cross-platform features including account deletion with end-to-end implementation",
+        "Resolved major UI inconsistencies after Tailwind theme migration"
+      ]
+    },
+    {
+      "company": "Infor Birst",
+      "role": "Software Engineer",
+      "location": "California, USA",
+      "startDate": "2022-11",
+      "endDate": "2025-03",
+      "featured": true,
+      "problem": "Legacy BI feature built in AngularJS was unmaintainable with 100K+ lines of code, slow build times, and manual dependency management causing delays",
+      "solution": "Rebuilt as standalone Angular library, migrated entire codebase from AngularJS to Angular 11+, integrated automated dependency management with Renovate",
+      "impact": "Modernized 100K+ LOC improving maintainability, reduced manual dependency effort by 50%, accelerated development with Storybook-driven workflows",
+      "highlights": [
+        "Rebuilt legacy BI feature as standalone Angular library enabling data import, transformations, scheduling, and workflows",
+        "Migrated 100K+ LOC from AngularJS to Angular 11+, improving maintainability and reducing build times",
+        "Used Storybook to accelerate frontend development and showcase progress to product, design, and sales teams",
+        "Integrated Renovate to automate dependency upgrades, reducing manual effort by 50%",
+        "Delivered features using lean, iterative processes with frequent internal demos"
+      ]
+    },
+    {
+      "company": "KiwiSpecs / SundayPyjamas LLP",
+      "role": "React Developer (Contract)",
+      "location": "India",
+      "startDate": "2019-01",
+      "endDate": "2020-07",
+      "featured": true,
+      "problem": "Multiple clients needed production-ready React Native mobile applications with complex features like scheduling, payments, and real-time data",
+      "solution": "Built complete mobile applications using React Native with integrated maps, payment workflows, booking systems, and interactive calendars",
+      "impact": "Delivered 3 production mobile apps (Trook, Organic Laundry, FitHouse) serving real users with full feature sets and seamless UX",
+      "highlights": [
+        "Developed chef-facing Trook app using React Native with scheduling, maps, earnings, and driver bookings",
+        "Built Organic Laundry mobile app with cart, order history, and payment workflows",
+        "Added interactive calendar features in FitHouse with daily/weekly/monthly views and API-driven rendering"
+      ]
+    },
+    {
+      "company": "Code With Us, Inc",
+      "role": "Coding Instructor",
+      "location": "California, USA",
+      "startDate": "2022-06",
+      "endDate": "2022-11",
+      "featured": false,
+      "highlights": [
+        "Led team of 3 instructors for Swift BootCamp with 95% success rate",
+        "Delivered personalised instruction for small groups",
+        "Refined curriculum content across two core courses"
+      ]
+    },
+    {
+      "company": "easilyDone Technologies LLP",
+      "role": "Full-Stack Developer Intern",
+      "location": "India",
+      "startDate": "2017-12",
+      "endDate": "2018-02",
+      "featured": false,
+      "highlights": [
+        "Built Angular + Node.js admin dashboard with analytics and secure authentication",
+        "Designed polling feature using Ionic + Node.js with real-time graphical results"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Grant Align",
+      "description": "An AI-powered assistant for managing and drafting grant applications built with Next.js and TypeScript.",
+      "technologies": ["Next.js", "TypeScript", "Node.js", "Google Generative AI", "Groq SDK", "Tailwind CSS", "Zod"],
+      "github": "https://github.com/ShwetaKhera/GrantAlign",
+       "image": "/images/projects/grant_align.png",
+      "link": "https://grant-align.vercel.app/",
+      "date": "Jan 2026",
+      "visible": true,
+      "featured": true
+    },
+    {
+      "name": "PRX Vault Task",
+      "description": "A zero-knowledge secrets manager with client-side encryption",
+      "technologies": ["Next.js 14 (App Router)", "TypeScript", "Supabase (PostgreSQL + Auth)", "Tailwind CSS", "Web Crypto API (AES-256-GCM)"],
+      "github": "https://github.com/ShwetaKhera/prx-vault-task-2",
+       "image": "/images/projects/prx_vault.png",
+      "link": "https://prx-vault-task-2.vercel.app",
+      "date": "Jan 2026",
+      "visible": true,
+      "featured": true
+    },
+    {
+      "name": "Trook - Chef Management App",
+      "description": "A chef-facing mobile application for food delivery management. Features include scheduling, real-time mapping, earnings tracking, and driver booking coordination.",
+      "technologies": ["React Native", "Maps Integration", "Real-time Updates", "Firebase"],
+      "github": "https://github.com/shwetakhera/trook",
+      "link": "https://trook-demo.vercel.app",
+      "date": "2019 - 2020",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "name": "Organic Laundry",
+      "description": "A full-featured laundry service booking app. Includes shopping cart, order history tracking, real-time updates, and integrated payment workflows.",
+      "technologies": ["React Native", "JavaScript", "Payment Integration", "Mobile"],
+      "github": "https://github.com/shwetakhera/organic-laundry",
+      "link": "https://organic-laundry.netlify.app",
+      "date": "2019 - 2020",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "name": "FitHouse",
+      "description": "A comprehensive fitness tracking application with interactive calendar views for workout scheduling. Features daily, weekly, and monthly workout plans.",
+      "technologies": ["React.js", "JavaScript", "Calendar API", "Charts"],
+      "github": "https://github.com/shwetakhera/fithouse",
+      "date": "2019 - 2020",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "name": "Transformer-Based Forecasting Model",
+      "description": "Advanced time-series forecasting system for stock market predictions. Leverages attention mechanisms to capture temporal patterns.",
+      "technologies": ["Python", "Transformers", "PyTorch", "Time Series"],
+      "github": "https://github.com/ShwetaKhera/GTD_Transformer",
+      "image": "/images/projects/transformer.png",
+      "date": "Jan 2022 - May 2022",
+      "visible": true,
+      "featured": true
+    },
+    {
+      "name": "DSW",
+      "description": "Landing page design concept for a hypothetical AI company focused on human-centric automation.",
+      "technologies": ["ReactJS", "JavaScript", "Netlify", "Github"],
+      "github": "https://github.com/ShwetaKhera/DSW",
+      "link": "https://velvety-mandazi-70cccc.netlify.app/",
+      "image": "/images/projects/dsw.png",
+      "date": "May 2020 - May 2020",
+      "visible": true,
+      "featured": true
+    },
+    {
+      "name": "1.45",
+      "description": "Full-stack application showcasing event management and community features for a movie marathon club.",
+      "technologies": ["ReactJS", "Express", "NodeJS", "NeDB", "Mocha", "Chai", "bycrypt"],
+      "github": "https://github.com/ShwetaKhera/1.45",
+      "link": "https://one-45-backend.onrender.com/",
+      "image": "/images/projects/1_45.png",
+      "date": "Nov 2021 - Dec 2021",
+      "visible": true,
+      "featured": true
+    },
+    {
+      "name": "Sjoon",
+      "description": "Concept web platform that allows users to access free photos without requiring account registration.",
+      "technologies": ["ReactJS", "Azure Active Directory(Passwordless Sign-in)", "Firebase (Realtime Database, Storage, Hosting)"],
+      "github": "https://github.com/ShwetaKhera/Sjoon",
+      "link": "https://sjoon-c2d21.web.app/",
+      "image": "/images/projects/sjoon.png",
+      "date": "Nov 2021 - Dec 2021",
+      "visible": true,
+      "featured": true
+    },
+    {
+      "name": "Fun With GPT3",
+      "description": "Prototype app showcasing AI text generation by feeding user prompts to GPT-3 via API.",
+      "technologies": ["ReactJS", "Javascript", "Netlify for deployment", "Github"],
+      "github": "https://github.com/ShwetaKhera/funWithGPT3",
+      "link": "https://628ae71b63d6b24f99541e15--singular-alpaca-e33084.netlify.app/",
+      "date": "May 2022 - May 2022",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "name": "Kbnb",
+      "description": "KBnB lets users register, list properties, browse and search for stays, and book accommodations—all with a responsive, user-friendly interface. The project features secure authentication, image uploads, and a seamless booking experience.",
+      "technologies": ["ReactJS", "Vite", "Tailwind CSS", "Axios", "Node.js", "Express", "MongoDB", "JWT", "Netlify (FE deployment)", "Render(BE deployment)"],
+      "github": "https://github.com/ShwetaKhera/KBnB",
+      "link": "https://kbnb.netlify.app/",
+      "date": "Jun 2025 - Jun 2025",
+      "visible": true,
+      "featured": true
+    }
+  ],
+  "education": [
+    {
+      "institution": "California State University, East Bay",
+      "degree": "M.S. in Computer Science",
+      "period": "2020 – 2022"
+    },
+    {
+      "institution": "Kalinga University",
+      "degree": "B.Tech in Computer Science & Engineering",
+      "period": "2015 – 2019"
+    }
+  ]
+}
